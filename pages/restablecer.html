@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio de sesion</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body class="inicio">
+        <div class="container_inicio">
+            <h1>Restablecer contraseña</h1>
+            <form action="../login/reset_password.php" method="POST">
+                <label>Correo: </label>
+                <input type="text" id="correo" name="correo" placeholder="Correo*">
+                <br><br>
+                <label>Nueva contraseña: </label>
+                <input type="password" name="contrasena" placeholder="Nueva contraseña*">
+                <br><br>
+                <label>Confirma contraseña: </label>
+                <input type="password" name="confirmar_contrasena" placeholder="Repita la contraseña*">
+                <br><br>
+                <button type="submit">Actualizar contraseña</button>
+            </form>
+            <a href="../index.html">Volver a la página de inicio de sesión</a>
+        </div>
+    </body>
+</html>
